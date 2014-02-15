@@ -12,8 +12,7 @@ from django.core.context_processors import csrf
 from django.contrib import auth
 from accounts.models import department_Mode, manager_demo
 
-from forms import UserEditForm
-
+from forms import UserCreateForm
 
 @login_required
 @csrf_protect
